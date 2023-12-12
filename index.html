@@ -95,7 +95,7 @@
                 <section class="container">
                     <div class="clearfix">
                         <div class="tw-feed transparent">
-                            <p>We at MiraCurAll give different services like Education, Financial, and Technology. Industries: Software Development. Company size: 2-10 employees.</p>
+                            <p>"Welcome to Miracurall Consultancy Services, your one-stop destination for innovative digital solutions! Our team is passionate about transforming your online presence. 🚀</p>
                         </div>
                         <div class="tw-feed-author">
                             <a href="https://twitter.com/miracurallCS" title="@miracurallCS">@miracurallCS</a><span>, 5 mins ago</span>
@@ -182,7 +182,8 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
                 </div>
                 <!--Ryan Fait's Sticky Footer-->
             </div>
-            <!--Footer-->
+
+<!--Footer-->
             <footer>
                 <div class="container">
                     <p>Copyright &copy; MiraCurAll Consultancy Services, 2023-2024</p>
@@ -190,7 +191,8 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
             </footer>
         </article>
 
-        <!--Our Team Screen-->
+
+<!--Our Team Screen-->
         <article class="pt-page pt-page-3 bg-image3" id="team">
             <div class="outer-wrapper overlay-green2">
                 <!--Header-->
@@ -201,8 +203,17 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
                                 <a class="home-page page-transition" href="#home" onclick="gotoPageWithTrans2(0)" title="Go Home"></a>
                                 <a class="prev-page page-transition" href="#about" onclick="gotoPageWithTrans3(1)" title="Go To Previous Page"></a>
                             </div>
-                            <h1>Our Team</h1>
+                                <h1>Our Team</h1>
                             <nav class="submenu page3-submenu">
+                                <ul>
+                                    <li><a href="#about" class="page-transition" onclick="gotoPageWithTrans5(1)">About Us</a></li>
+                                    <li><a href="#contacts" class="page-transition" onclick="gotoPageWithTrans5(2)">Contact Us</a></li>
+                                    <li class="current"><a href="#team">Our Team</a></li>
+                                    <li class="inline"><a href="#works" class="page-transition" onclick="gotoPageWithTrans4(4)">Our Works</a></li>
+                                    <li><a href="#blog" class="page-transition" onclick="gotoPageWithTrans4(5)">Our Blog</a></li>
+                                    <li><a href="#feedback" class="page-transition" onclick="gotoPageWithTrans4(6)">Feedback</a></li>
+                                </ul>
+                            </nav>
                                 <ul>
                                     <li><a class="facebook-white" href="https://www.facebook.com/miracurallconsultancy"    title="Facebook" target="blank"></a></li>
                                     <li><a class="twitter-white"  href="https://twitter.com/MiracurallCS"            title="Twitter" target="blank"></a></li>
@@ -286,7 +297,7 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
             </footer>
         </article>
 
-        <!--Our Works Screen-->
+<!--Our Works Screen-->
         <article class="pt-page pt-page-4 bg-image4" id="works">
             <div class="outer-wrapper overlay-blue">
                 <!--Header-->
@@ -409,7 +420,7 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
 
 
 
-        <!--Contact Us Screen-->
+<!--Contact Us Screen-->
         <article class="pt-page pt-page-5 bg-image5" id="contacts">
             <div class="outer-wrapper overlay-pink">
                 <!--Header-->
@@ -474,7 +485,7 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
         </article>
 
 
-        <!--Blog Screen-->
+<!--Blog Screen-->
         <article class="pt-page pt-page-6 bg-image6" id="blog">
             <div class="outer-wrapper overlay-orange">
                 <!--Header-->
@@ -566,7 +577,7 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
             </footer>
         </article>
 
-        <!--Feedback Screen-->
+<!--Feedback Screen-->
         <article class="pt-page pt-page-7 bg-image6" id="feedback">
             <div class="outer-wrapper overlay-brown">
                 <!--Header-->
@@ -633,7 +644,7 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
             </footer>
         </article>
 
-        <!--Single Blog Post Screen-->
+<!--Single Blog Post Screen-->
         <article class="pt-page pt-page-8 bg-image6" id="blog-single">
             <div class="outer-wrapper overlay-orange">
                 <!--Header-->
@@ -741,40 +752,16 @@ Contact us today at 9830687334 to embark on a journey of digital excellence with
             </footer>
         </article>
     </div>
-    <!-- jQuery -->
+
+
+<!-- jQuery -->
     <script src="js/jquery.js"></script>
     <script src="js/pagetransitions.js" type="text/javascript"></script>
     <script src="js/validation.js" type="text/javascript"></script>
     <script src="js/grid.js"></script>
     <script src="js/scripts.js"></script>
 
-    <!-- Form validation -->
-    <script type="text/javascript">
-        var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "none", {
-            hint: "Your Name *",
-            validateOn: ["change"]
-        });
-        var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2", "email", {
-            hint: "Your Email *",
-            validateOn: ["change"]
-        });
-        var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3", "none", {
-            hint: "Your Name *",
-            validateOn: ["change"]
-        });
-        var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4", "email", {
-            hint: "Your Email *",
-            validateOn: ["change"]
-        });
-        var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {
-            hint: "Any comment *",
-            validateOn: ["change"]
-        });
-        var sprytextarea2 = new Spry.Widget.ValidationTextarea("sprytextarea2", {
-            hint: "Any comment *",
-            validateOn: ["change"]
-        });
-    </script>
+<!-- Form validation -->
+    <script src="js/Formvalidation.js" type="text/javascript"></script>
 </body>
-
 </html>
